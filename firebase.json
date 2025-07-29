@@ -1,0 +1,33 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "schoolapp-eed9d",
+          "appId": "1:958045292209:android:44f0b6b30d02c334be8490",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "schoolapp-eed9d",
+          "configurations": {
+            "android": "1:958045292209:android:44f0b6b30d02c334be8490",
+            "ios": "1:958045292209:ios:a07279c52f3e7826be8490",
+            "macos": "1:958045292209:ios:a07279c52f3e7826be8490",
+            "web": "1:958045292209:web:14a00fac964c3fafbe8490",
+            "windows": "1:958045292209:web:9c8b95bbfaaa15d0be8490"
+          }
+        }
+      }
+    }
+  },
+  "emulators": {
+    "dataconnect": {
+      "dataDir": "dataconnect/.dataconnect/pgliteData"
+    }
+  },
+  "dataconnect": {
+    "source": "dataconnect"
+  }
+}
